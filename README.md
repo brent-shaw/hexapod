@@ -1,6 +1,6 @@
 # hexapod
 
-![hexapod](https://raw.github.com/brent-shaw/hexapod/hexapod.svg)
+![hexapod](https://raw.github.com/brent-shaw/hexapod/assets/hexapod.svg)
 
 Body
 
