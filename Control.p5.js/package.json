@@ -1,0 +1,18 @@
+{
+  "name": "hexapod.js",
+  "version": "1.0.0",
+  "description": "Hexapod control system",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "serialport": "^4.0.7",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

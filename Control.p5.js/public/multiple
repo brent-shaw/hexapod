@@ -1,0 +1,19 @@
+var slider = [];
+
+var numberOfServos = 18;
+
+function setup() {
+  createCanvas(1920, 480);
+  
+  var i;
+  for (i = 0; i < numberOfServos; i++) {
+    slider[i] = createSlider(0, 180, 90);
+    slider[i].position(10, 20*(i+1));
+    slider[i].style('width', '180px');
+  }
+}
+
+function draw() {
+  var val = slider[0].value();
+  background(51);
+}
